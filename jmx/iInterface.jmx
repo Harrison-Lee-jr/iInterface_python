@@ -119,7 +119,7 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="true">
+          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="false">
             <stringProp name="JSON_PATH">$.weatherinfo.city</stringProp>
             <stringProp name="EXPECTED_VALUE">深圳</stringProp>
             <boolProp name="JSONVALIDATION">true</boolProp>
@@ -148,7 +148,7 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="true">
+          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="false">
             <stringProp name="JSON_PATH">$.weatherinfo.city</stringProp>
             <stringProp name="EXPECTED_VALUE">上海</stringProp>
             <boolProp name="JSONVALIDATION">true</boolProp>
@@ -177,7 +177,7 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="true">
+          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="JSON Assertion" enabled="false">
             <stringProp name="JSON_PATH">$.weatherinfo.city</stringProp>
             <stringProp name="EXPECTED_VALUE">北京</stringProp>
             <boolProp name="JSONVALIDATION">true</boolProp>
